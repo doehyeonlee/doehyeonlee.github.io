@@ -1,82 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Doehyeon Lee - Profile</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-			background-color: #f7f7f7;
-		}
-		header {
-			text-align: center;
-		}
-		.profile-img {
-			width: 150px;
-			height: 150px;
-			border-radius: 50%;
-			object-fit: cover;
-			margin-bottom: 20px;
-		}
-		h2 {
-			border-bottom: 2px solid #333;
-			padding-bottom: 5px;
-		}
-		section {
-			margin-bottom: 20px;
-		}
-		ul {
-			list-style-type: square;
-		}
-		a {
-			color: #0366d6;
-			text-decoration: none;
-		}
-		a:hover {
-			text-decoration: underline;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doehyeon Lee - Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="flex h-screen">
 
-<header>
-	<img class="profile-img" src="https://i.ibb.co/mCrTRzVz/Kakao-Talk-20241007-224057520.jpg" alt="Profile Image">
-	<h1>Doehyeon Lee</h1>
-	<p>M.S. Student in Information Management Lab at Seoul National University </p>
-</header>
+    <!-- 좌측 (이미지 및 이름, 검은색 배경) -->
+    <div class="w-1/3 bg-black text-white flex flex-col justify-center items-center">
+        <img class="w-40 h-40 rounded-full mb-4" src="https://i.ibb.co/mCrTRzVz/Kakao-Talk-20241007-224057520.jpg" alt="Profile Image">
+        <h1 class="text-2xl font-bold">Doehyeon Lee</h1>
+        <p class="text-center mt-2">M.S. Student in Information Management Lab at Seoul National University</p>
+    </div>
 
-<section>
-	<h2>Education</h2>
-	<ul>
-		<li>BS, Industrial Engineering, Seoul National University, 2025</li>
-	</ul>
-</section>
+    <!-- 우측 (학업 및 연구 정보, 하얀색 배경) -->
+    <div class="w-2/3 bg-white overflow-auto p-10">
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold mb-2 border-b-2 border-gray-400 pb-1">Education</h2>
+            <ul class="list-disc list-inside">
+                <li>BS, Industrial Engineering, Seoul National University, 2025</li>
+            </ul>
+        </section>
 
-<section>
-	<h2>Research Publications</h2>
-	<ul>
-		<li><a href="https://arxiv.org/abs/2502.04757">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety
- </a> (arXiv, 2025)</li>
-	</ul>
-</section>
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold mb-2 border-b-2 border-gray-400 pb-1">Research Publications</h2>
+            <ul class="list-disc list-inside">
+                <li><a class="text-blue-600 hover:underline" href="https://arxiv.org/abs/2502.04757">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a> (arXiv, 2025)</li>
+            </ul>
+        </section>
 
-<section>
-	<h2>GitHub Projects</h2>
-	<ul>
-		<li><a href="#">Project 1: Short Description</a></li>
-		<li><a href="#">Project 2: Short Description</a></li>
-	</ul>
-</section>
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold mb-2 border-b-2 border-gray-400 pb-1">GitHub Projects</h2>
+            <ul class="list-disc list-inside">
+                <li><a class="text-blue-600 hover:underline" href="#">Project 1: Short Description</a></li>
+                <li><a class="text-blue-600 hover:underline" href="#">Project 2: Short Description</a></li>
+            </ul>
+        </section>
 
-<footer>
-	<p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-	<p><a href="https://github.com/your-github-username">GitHub Profile</a></p>
-</footer>
+        <footer class="mt-8">
+            <p>Contact: <a class="text-blue-600 hover:underline" href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p><a class="text-blue-600 hover:underline" href="https://github.com/your-github-username">GitHub Profile</a></p>
+        </footer>
+    </div>
 
 </body>
 </html>
