@@ -50,12 +50,12 @@
         </section>
 
         <footer class="mt-8">
-            <h2 class="text-lg font-semibold mt-4">Take your time</h2>
+            <h2 class="text-lg font-semibold mt-4">No rush, take your time.</h2>
             <canvas id="gameCanvas" width="300" height="300"></canvas>
         </footer>
     </div>
 
-    <script>
+        <script>
         const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
 
@@ -66,6 +66,7 @@
         let ballY = canvas.height - 30;
         let ballDX = 2;
         let ballDY = -2;
+        let score = 0;
 
         function drawPaddle() {
             ctx.fillStyle = '#555';
@@ -80,6 +81,12 @@
             ctx.closePath();
         }
 
+        function drawScore() {
+            ctx.font = '14px Arial';
+            ctx.fillStyle = '#555';
+            ctx.fillText('Score: ' + score, canvas.width - 65, 20);
+        }
+
         function movePaddle(e) {
             const relativeX = e.clientX - canvas.offsetLeft;
             if (relativeX > 0 && relativeX < canvas.width) {
@@ -87,17 +94,29 @@
             }
         }
 
+        function movePaddleTouch(e) {
+            const relativeX = e.touches[0].clientX - canvas.offsetLeft;
+            if (relativeX > 0 && relativeX < canvas.width) {
+                paddleX = relativeX - paddleWidth / 2;
+            }
+        }
+
         document.addEventListener('mousemove', movePaddle);
+        document.addEventListener('touchmove', movePaddleTouch);
 
         function gameLoop() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             drawPaddle();
             drawBall();
+            drawScore();
 
             if(ballX + ballDX > canvas.width || ballX + ballDX < 0) {
                 ballDX = -ballDX;
             }
-            if(ballY + ballDY < 0 || (ballY + ballDY > canvas.height - paddleHeight && ballX > paddleX && ballX < paddleX + paddleWidth)) {
+            if(ballY + ballDY < 0) {
+                ballDY = -ballDY;
+                score++;
+            } else if(ballY + ballDY > canvas.height - paddleHeight && ballX > paddleX && ballX < paddleX + paddleWidth) {
                 ballDY = -ballDY;
             }
 
