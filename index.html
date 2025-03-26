@@ -4,9 +4,80 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+	<title>Doehyeon Lee - Profile</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f7f7f7;
+		}
+		header {
+			text-align: center;
+		}
+		.profile-img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-bottom: 20px;
+		}
+		h2 {
+			border-bottom: 2px solid #333;
+			padding-bottom: 5px;
+		}
+		section {
+			margin-bottom: 20px;
+		}
+		ul {
+			list-style-type: square;
+		}
+		a {
+			color: #0366d6;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	</style>
 </head>
 <body>
-  <p>Hello, World!</p>
+
+<header>
+	<input type="url" id="profileUrl" placeholder="Enter your profile image URL" oninput="document.getElementById('profileImage').src=this.value" style="width:80%;padding:10px;margin-bottom:20px;"/>
+	<br>
+	<img id="profileImage" class="profile-img" src="" alt="Profile Image">
+	<h1>Dohyun Lee</h1>
+	<p>M.S. Student in Information Management Lab at Seoul National University </p>
+</header>
+
+<section>
+	<h2>Education</h2>
+	<ul>
+		<li>BS, Industrial Engineering, Seoul National University, 2025</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Research Publications</h2>
+	<ul>
+		<li><a href="#">Paper Title </a> (arXiv, 2025)</li>
+	</ul>
+</section>
+
+<section>
+	<h2>GitHub Projects</h2>
+	<ul>
+		<li><a href="#">Project 1: Short Description</a></li>
+		<li><a href="#">Project 2: Short Description</a></li>
+	</ul>
+</section>
+
+<footer>
+	<p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+	<p><a href="https://github.com/your-github-username">GitHub Profile</a></p>
+</footer>
+
 </body>
 </html>
