@@ -29,8 +29,8 @@
         <section class="mb-6">
             <h2 class="text-xl font-semibold mb-2 border-b-2 border-gray-400 pb-1">Education</h2>
             <ul class="list-disc list-inside">
-                <li>BS, Industrial Engineering, Seoul National University, 2025</li>
-                <li>M.S., Information Management, Seoul National University (In Progress)</li>
+                <li>M.S., Industrial Engineering (Information Management Lab), Seoul National University (In Progress)</li>
+                <li>B.S., Industrial Engineering, Seoul National University, 2025</li>
             </ul>
         </section>
 
@@ -50,7 +50,7 @@
         </section>
 
         <footer class="mt-8">
-            <h2 class="text-lg font-semibold mt-4">Play Snake Game</h2>
+            <h2 class="text-lg font-semibold mt-4">Take your time</h2>
             <canvas id="gameCanvas" width="300" height="300"></canvas>
         </footer>
     </div>
@@ -59,59 +59,53 @@
         const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
 
-        const box = 10;
-        let snake = [{ x: 140, y: 140 }];
-        let food = { x: 50, y: 50 };
-        let dx = box;
-        let dy = 0;
+        const paddleWidth = 60;
+        const paddleHeight = 10;
+        let paddleX = (canvas.width - paddleWidth) / 2;
+        let ballX = canvas.width / 2;
+        let ballY = canvas.height - 30;
+        let ballDX = 2;
+        let ballDY = -2;
 
-        function drawSnake() {
-            snake.forEach(part => {
-                ctx.fillStyle = '#4CAF50';
-                ctx.fillRect(part.x, part.y, box, box);
-            });
+        function drawPaddle() {
+            ctx.fillStyle = '#555';
+            ctx.fillRect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
         }
 
-        function drawFood() {
-            ctx.fillStyle = '#FF0000';
-            ctx.fillRect(food.x, food.y, box, box);
+        function drawBall() {
+            ctx.fillStyle = '#888';
+            ctx.beginPath();
+            ctx.arc(ballX, ballY, 8, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.closePath();
         }
 
-        function moveSnake() {
-            const head = { x: snake[0].x + dx, y: snake[0].y + dy };
-            snake.unshift(head);
-
-            if (head.x === food.x && head.y === food.y) {
-                food.x = Math.floor(Math.random() * 30) * box;
-                food.y = Math.floor(Math.random() * 30) * box;
-            } else {
-                snake.pop();
+        function movePaddle(e) {
+            const relativeX = e.clientX - canvas.offsetLeft;
+            if (relativeX > 0 && relativeX < canvas.width) {
+                paddleX = relativeX - paddleWidth / 2;
             }
         }
 
-        function changeDirection(event) {
-            const keyPressed = event.keyCode;
-            const LEFT = 37;
-            const UP = 38;
-            const RIGHT = 39;
-            const DOWN = 40;
-
-            if (keyPressed === LEFT && dx === 0) { dx = -box; dy = 0; }
-            if (keyPressed === UP && dy === 0) { dx = 0; dy = -box; }
-            if (keyPressed === RIGHT && dx === 0) { dx = box; dy = 0; }
-            if (keyPressed === DOWN && dy === 0) { dx = 0; dy = box; }
-        }
-
-        document.addEventListener('keydown', changeDirection);
+        document.addEventListener('mousemove', movePaddle);
 
         function gameLoop() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            drawSnake();
-            drawFood();
-            moveSnake();
+            drawPaddle();
+            drawBall();
+
+            if(ballX + ballDX > canvas.width || ballX + ballDX < 0) {
+                ballDX = -ballDX;
+            }
+            if(ballY + ballDY < 0 || (ballY + ballDY > canvas.height - paddleHeight && ballX > paddleX && ballX < paddleX + paddleWidth)) {
+                ballDY = -ballDY;
+            }
+
+            ballX += ballDX;
+            ballY += ballDY;
         }
 
-        setInterval(gameLoop, 100);
+        setInterval(gameLoop, 10);
     </script>
 
 </body>
