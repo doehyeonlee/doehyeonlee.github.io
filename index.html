@@ -130,7 +130,7 @@
         function drawScore() {
             const text = 'Score: ' + score;
             ctx.font = '16px Arial';
-            ctx.fillStyle = '#fff';
+            ctx.fillStyle = '#000';
             ctx.textAlign = 'right';
             ctx.fillText(text, canvas.width - 10, 25);
             ctx.textAlign = 'start';
@@ -183,7 +183,7 @@
                 drawScore();
                 // 둥근 글씨체로 게임오버 메시지
                 ctx.font = '30px "Arial Rounded MT Bold", Arial, sans-serif';
-                ctx.fillStyle = '#fff';
+                ctx.fillStyle = '#000';
                 ctx.textAlign = 'center';
                 ctx.fillText('Try just 1 more time!', canvas.width / 2, canvas.height / 2);
                 // 최종 점수 멘트
