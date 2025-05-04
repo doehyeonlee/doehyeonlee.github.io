@@ -16,7 +16,7 @@ I am a MS student at Seoul National University
 - **[May. 2025]** Our paper about VLM Safety evaluation is accepted to ICML 2025.
 
 
-{% include_relative _data/publications.yml %}
+{% include_relative _includes/publications.md %}
 
 
 {% include_relative _includes/services.md %}
