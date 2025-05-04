@@ -1,4 +1,4 @@
-<h4 style="margin:0 10px 0;">Work Experience</h4>
+## Work Experience
 
 <ul style="margin:0 0 10px;">
   <li>
