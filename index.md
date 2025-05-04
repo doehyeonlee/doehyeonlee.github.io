@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a MS student at Seoul National University
+I am a MS student in Information Management Lab at Seoul National University
 
 ## Research Interests
 
