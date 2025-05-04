@@ -1,8 +1,7 @@
 main:
 
-  - title: ELITE Enhanced Language-Image Toxicity Evaluation for Safety
-    authors: Wonjun Lee*, <strong>Doehyeon Lee*</strong>, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim 
- (*Equal Contribution)
+  - title: "ELITE: Enhanced Language-Image Toxicity Evaluation for Safety"
+    authors: Wonjun Lee*, <strong>Doehyeon Lee*</strong>, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (*Equal Contribution)
     conference_short: ICML 2025
     conference: Forty-second International Conference on Machine Learning, 2025
     pdf: https://arxiv.org/pdf/2502.04757
