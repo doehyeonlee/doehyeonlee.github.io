@@ -22,4 +22,4 @@ I am a MS student at Seoul National University
 {% include_relative _includes/services.md %}
 
 
-{% include_relative _includes/game.md %}
+
