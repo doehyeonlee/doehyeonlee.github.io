@@ -7,6 +7,6 @@ main:
     conference: Forty-second International Conference on Machine Learning, 2025
     pdf: https://arxiv.org/pdf/2502.04757
     code: https://velpegor.github.io/ELITE/
-    bibtex: https://arxiv.org/abs/2502.04757
+    bibtex: https://dblp.org/rec/journals/corr/abs-2502-04757.html?view=bibtex
     image: ./assets/img/ELITE.png
     notes: Accept (Poster)
