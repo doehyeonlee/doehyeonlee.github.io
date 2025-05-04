@@ -1,16 +1,14 @@
 ## Work Experience
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Work Experience</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
-  <li><a href="http://iccv2021.thecvf.com/"><autocolor>IEEE/CVF International Conference on Computer Vision (ICCV) 2021</autocolor></a></li>
-  <li><a href="https://eccv2022.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2022</autocolor></a></li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Journal Reviewers</h4>
-
-<ul style="margin:0 0 20px;">
-  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
+  <li><a href="https://aim-intelligence.com/en"><autocolor>AIM Intelligence · Research Intern</autocolor></a></li> (Oct 2024 – Feb 2025, On-site)
+    <br> Evaluation Team: Built a VLM Safety Benchmark with improved dataset categorization and quality; conducted red teaming for a pre-release service, identifying LLM vulnerabilities through jailbreak testing; analyzed AI security trends focusing on the latest models and emerging risks.
+  </li>
+  <li><autocolor>NAVER Cloud · Research Assistant</autocolor> (Jul 2024 – Sep 2024, Hybrid)
+    <br> Hyperscale AI Planning, Eco Biz Dev: Evaluated market trends and opportunities in GenAI services and AI agents; researched partnership strategies in key service areas; assessed emerging AI services and their competitive risks.
+  </li>
+  <li><autocolor>Seoul National University · MARG Student Intern</autocolor> (Jul 2023 – Aug 2023, On-site)
+    <br> Built a CNN-based chorus detection model for Intelligent Music Production (IMP); generated synthetic data using open-source models to supplement limited datasets; contributed to systematic reviews on Audio-Visual speech perception for hearing-impaired individuals. </li>
 </ul>
