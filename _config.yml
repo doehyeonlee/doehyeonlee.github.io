@@ -17,9 +17,9 @@ linkedin: https://www.linkedin.com/in/doehyeon-lee-from-seoul
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/square_iamge.jpg
-favicon: ./assets/img/dolphin.png
-favicon_dark: ./assets/img/dolphin.png
+avatar: ./assets/img/square_iamge_small.jpg
+favicon: ./assets/img/dolphin2.png
+favicon_dark: ./assets/img/dolphin2.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
