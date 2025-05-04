@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a MS student in Information Management Lab at Seoul National University
+I am a MS student in Information Management Lab at Seoul National University, with a strong interest in studying and exploring generation models in depth.
 
 ## Research Interests
 
