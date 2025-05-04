@@ -1,5 +1,13 @@
 ## Experience
 
+<h4 style="margin:0 10px 0;">Educations</h4>
+
+<ul style="margin:0 0 10px;">
+  <li>M.S., Industrial Engineering (Information Management Lab), Seoul National University (In Progress)</li>
+  <li>B.S., Industrial Engineering, Seoul National University, 2025</li>
+</ul>
+
+
 <h4 style="margin:0 10px 0;">Work Experience</h4>
 
 <ul style="margin:0 0 10px;">
