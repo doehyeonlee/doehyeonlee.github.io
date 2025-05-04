@@ -1,6 +1,6 @@
 ## Work Experience
 
-<h4 style="margin:0 10px 0;">Work Experience</h4>
+## <h4 style="margin:0 10px 0;">Work Experience</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://aim-intelligence.com/en"><autocolor>AIM Intelligence · Research Intern</autocolor></a></li> (Oct 2024 – Feb 2025, On-site)
