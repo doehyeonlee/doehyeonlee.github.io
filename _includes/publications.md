@@ -12,12 +12,12 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2502.04757">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a></div>
+    <div class="title"><a href="https://velpegor.github.io/ELITE/">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a></div>
     <div class="author">Wonjun Lee*, <strong>Doehyeon Lee*</strong>, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (*Equal Contribution)</div>
     <div class="periodical"><em>Forty-second International Conference on Machine Learning, 2025 <strong>(ICML 2025)</strong></em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2502.04757" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://arxiv.org/abs/2502.04757" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://huggingface.co/datasets/WonjunL/ELITE" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://velpegor.github.io/ELITE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://dblp.org/rec/journals/corr/abs-2502-04757.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
