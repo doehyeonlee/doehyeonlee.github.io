@@ -6,6 +6,12 @@
   <li>김이경, 성민재, <strong>이도현</strong>, 박종헌, “LLM-Guided Music Tagging for Enhancing Semantic Consistency and Generalization in Tag Classification”, 대한산업공학회 춘계학술대회, 2025</li>
 </ul>
 
+
+
+
+
+
+
 ## Experience
 
 <h4 style="margin:0 10px 0;">Educations</h4>
