@@ -23,6 +23,25 @@
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
   </div>
+
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="../assets/img/SceneSplit.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">Preprint</abbr>
+  </div>
+
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2509.22292">Jailbreaking on Text-to-Video Models via Scene Splitting Strategy</a></div>
+    <div class="author">Wonjun Lee*, Haon Park*, <strong>Doehyeon Lee</strong>, Bumsub Ham, Suhyun Kim (*Equal Contribution)</div>
+    <div class="periodical"><em>Arxiv Preprint<strong></strong></em></div>
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2509.22292" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://dblp.org/rec/journals/corr/abs-2509-22292.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
+    </div>
+  </div>
+
+
+  
 </div>
 </li>
   
