@@ -20,7 +20,7 @@
 
 <ul style="margin:0 0 10px;">
   <li>
-    <autocolor>Nanyang Technological University (NTU Singapore) · Global Connect Fellowship</autocolor> (Feb 2026 – Mar 2026)
+    <autocolor>Nanyang Technological University Singapore · Global Connect Fellowship</autocolor> (Feb 2026 – Mar 2026)
   </li>
   <li>
     <a href="https://aim-intelligence.com/en"><autocolor>AIM Intelligence · Research Intern</autocolor></a> (Oct 2024 – Feb 2025)
