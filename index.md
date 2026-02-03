@@ -12,8 +12,8 @@ I am a MS student in Information Management Lab at Seoul National University, wi
 - **Music Generation:** Genre Detection, Symbolic Music Generation
 
 ## News
-- **[Jan. 2026]** One paper about Video generation model jailbreak is accepted to ICLR 2026.
-- **[May. 2025]** One paper about VLM Safety evaluation is accepted to ICML 2025.
+- **[Jan. 2026]** One paper about Video Generation Model Jailbreak is accepted to ICLR 2026.
+- **[May. 2025]** One paper about VLM Safety Evaluation is accepted to ICML 2025.
 
 {% include_relative _includes/publications.md %}
 
