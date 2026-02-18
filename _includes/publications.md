@@ -40,6 +40,8 @@
     <div class="periodical"><em>Fourteenth International Conference on Learning Representations, 2026 <strong>(ICLR 2026)</strong></em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2509.22292" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/velpegor/SceneSplit" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://velpegor.github.io/SceneSplit/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://dblp.org/rec/journals/corr/abs-2509-22292.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
     </div>
