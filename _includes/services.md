@@ -20,18 +20,18 @@
 
 <ul style="margin:0 0 10px;">
   <li>
-    <autocolor>Nanyang Technological University Singapore · Global Connect Fellowship</autocolor> (Feb 2026 – Mar 2026)
+    <autocolor><strong>Nanyang Technological University Singapore</strong> · Global Connect Fellowship</autocolor> (Feb 2026 – Mar 2026)
   </li>
   <li>
-    <autocolor><a href="https://aim-intelligence.com/en">AIM Intelligence</a> · Research Intern</autocolor> (Oct 2024 – Feb 2025)
-  </li>
-
-  <li>
-    <autocolor>NAVER Cloud · Research Assistant</autocolor> (Jul 2024 – Sep 2024)
+    <autocolor><strong><a href="https://aim-intelligence.com/en">AIM Intelligence</a></strong> · Research Intern</autocolor> (Oct 2024 – Feb 2025)
   </li>
 
   <li>
-    <autocolor>Seoul National University MARG (Music and Audio Research Group) · Student Research Intern</autocolor> (Jul 2023 – Aug 2023)
+    <autocolor><strong>NAVER Cloud</strong> · Research Assistant</autocolor> (Jul 2024 – Sep 2024)
+  </li>
+
+  <li>
+    <autocolor><strong>Seoul National University MARG</strong> (Music and Audio Research Group) · Student Research Intern</autocolor> (Jul 2023 – Aug 2023)
   </li>
 </ul>
 
