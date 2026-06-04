@@ -39,13 +39,13 @@
 
 <ul style="margin:0 0 10px;">
   <li>
-    <autocolor>**Reviewer** for <a href="https://trustworthy-ai-for-good.github.io/">[Trustworthy AI for Good (AI4GOOD) Workshop]</a> @ ICML 2026</autocolor> (Jul 10, 2026)
+    <autocolor><strong>Reviewer</strong> for <a href="https://trustworthy-ai-for-good.github.io/">[Trustworthy AI for Good (AI4GOOD) Workshop]</a> @ ICML 2026</autocolor> (Jul 10, 2026)
   </li>
   <li>
-    <autocolor>**Teaching Assistant**, *Industrial Application of Machine Learning* (Department of Industrial Engineering, Seoul National University) </autocolor> (Sep 2025 – Dec 2025)
+    <autocolor><strong>Teaching Assistant</strong>, Industrial Application of Machine Learning (Department of Industrial Engineering, Seoul National University) </autocolor> (Sep 2025 – Dec 2025)
   </li>
   <li>
-    <autocolor>**Tutor**, *Basic Computing: First Adventures in Computing* (College of Liberal Studies, Seoul National University) </autocolor> (Mar 2025 – Dec 2025)
+    <autocolor><strong>Tutor</strong>, Basic Computing: First Adventures in Computing (College of Liberal Studies, Seoul National University) </autocolor> (Mar 2025 – Dec 2025)
   </li>
 </ul>
 
