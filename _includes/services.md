@@ -23,7 +23,7 @@
     <autocolor>Nanyang Technological University Singapore · Global Connect Fellowship</autocolor> (Feb 2026 – Mar 2026)
   </li>
   <li>
-    <a href="https://aim-intelligence.com/en"><autocolor>AIM Intelligence · Research Intern</autocolor></a> (Oct 2024 – Feb 2025)
+    <autocolor><a href="https://aim-intelligence.com/en">AIM Intelligence</a> · Research Intern</autocolor> (Oct 2024 – Feb 2025)
   </li>
 
   <li>
@@ -39,13 +39,13 @@
 
 <ul style="margin:0 0 10px;">
   <li>
-    <autocolor><strong>Reviewer</strong> for Trustworthy AI for Good (AI4GOOD) Workshop @ <a href="https://trustworthy-ai-for-good.github.io/">ICML 2026</a> </autocolor> (Jul 10, 2026)
+    <autocolor><strong>Reviewer</strong> for <a href="https://trustworthy-ai-for-good.github.io/">Trustworthy AI for Good (AI4GOOD) Workshop</a> @ ICML 2026 </autocolor> (Jul 10, 2026)
   </li>
   <li>
-    <autocolor><strong>Teaching Assistant</strong>, Industrial Application of Machine Learning (Department of Industrial Engineering, Seoul National University) </autocolor> (Sep 2025 – Dec 2025)
+    <autocolor><strong>Teaching Assistant</strong>, <em>Industrial Application of Machine Learning</em>, Seoul National University</autocolor> (Sep 2025 – Dec 2025)
   </li>
   <li>
-    <autocolor><strong>Tutor</strong>, Basic Computing: First Adventures in Computing (College of Liberal Studies, Seoul National University) </autocolor> (Mar 2025 – Dec 2025)
+    <autocolor><strong>Tutor</strong>, <em>Basic Computing: First Adventures in Computing</em>, Seoul National University</autocolor> (Mar 2025 – Dec 2025)
   </li>
 </ul>
 
