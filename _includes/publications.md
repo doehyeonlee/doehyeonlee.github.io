@@ -12,7 +12,7 @@
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://icml.cc/virtual/2025/poster/46445">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a></div>
+    <div class="title"><a href="https://proceedings.mlr.press/v267/lee25r.html">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a></div>
     <div class="author">Wonjun Lee*, <strong>Doehyeon Lee*</strong>, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (*Equal Contribution)</div>
     <div class="periodical"><em>Forty-second International Conference on Machine Learning, 2025 <strong>(ICML 2025)</strong></em></div>
     <div class="links">
