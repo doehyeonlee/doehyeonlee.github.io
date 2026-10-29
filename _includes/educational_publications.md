@@ -1,4 +1,4 @@
-<h4 id="publications" style="margin: 2px 0px -15px;">Educational Publications</h4>
+<h3 id="publications" style="margin: 2px 0px -15px;">Educational Publications</h3>
 
 <div class="publications">
 <ol class="bibliography">
