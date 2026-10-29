@@ -1,4 +1,4 @@
-<h4 style="margin:0 10px 0;">Korean Conference Presentations</h4>
+<h3 style="margin:0 10px 0;">Korean Conference Presentations</h3>
 
 <ul style="margin:0 0 10px;">
   <li><strong>이도현</strong>, 김이경, 성민재, 박종헌, “데이터 합성 기법을 활용한 음악 장르 분류 모델의 성능 향상 연구”, 대한산업공학회 춘계학술대회, 2025</li>
