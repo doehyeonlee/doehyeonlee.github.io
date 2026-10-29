@@ -30,7 +30,7 @@
 
 <ul style="margin:0 0 10px;">
   <li>
-    <autocolor><strong>Reviewer</strong> for <a href="https://trustworthy-ai-for-good.github.io/index.html">Trustworthy AI for Good (AI4GOOD) Workshop</a> @ NeurIPS 2026 (Dec 12, 2026), <a href="https://trustworthy-ai-for-good.github.io/icml-2026.html"> AI4GOOD Workshop</a> @ ICML 2026 (Jul 10, 2026)</autocolor> 
+    <autocolor><strong>Reviewer</strong> for Trustworthy AI for Good (AI4GOOD) Workshop <a href="https://trustworthy-ai-for-good.github.io/index.html">@ NeurIPS 2026 (Dec 12, 2026)</a>, <a href="https://trustworthy-ai-for-good.github.io/icml-2026.html">@ ICML 2026 (Jul 10, 2026)</a></autocolor> 
   </li>
   <li>
     <autocolor><strong>Teaching Assistant</strong>, <em>Industrial Application of Machine Learning</em>, Seoul National University</autocolor> (Sep 2025 – Dec 2025)
