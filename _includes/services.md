@@ -27,7 +27,7 @@
   </li>
 
   <li>
-    <autocolor><strong>NAVER Cloud</strong> · Research Assistant</autocolor> (Jul 2024 – Sep 2024)
+    <autocolor><strong>NAVER Cloud</strong> · Intern, Hyperscale AI Planning</autocolor> (Jul 2024 – Sep 2024)
   </li>
 
   <li>
