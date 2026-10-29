@@ -18,8 +18,6 @@ I am a MS student in Information Management Lab at Seoul National University, wi
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/conf_kr.md %}
-
 {% include_relative _includes/educational_publications.md %}
 
 {% include_relative _includes/services.md %}
