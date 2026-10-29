@@ -7,45 +7,33 @@
 <div class="pub-row">
 
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/img/ELITE.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICML 2025</abbr>
+    <img src="../assets/img/safetydirection.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">NeurIPS 2026 Education Track</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://proceedings.mlr.press/v267/lee25r.html">ELITE: Enhanced Language-Image Toxicity Evaluation for Safety</a></div>
-    <div class="author">Wonjun Lee*, <strong>Doehyeon Lee*</strong>, Eugene Choi, Sangyoon Yu, Ashkan Yousefpour, Haon Park, Bumsub Ham, Suhyun Kim (*Equal Contribution)</div>
-    <div class="periodical"><em>Forty-second International Conference on Machine Learning, 2025 <strong>(ICML 2025)</strong></em></div>
-    <div class="links">
-      <a href="https://arxiv.org/pdf/2502.04757" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://huggingface.co/datasets/kdst/ELITE" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://cvlab.yonsei.ac.kr/projects/ELITE/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="https://dblp.org/rec/journals/corr/abs-2502-04757.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
-    </div>
+    <div class="title"><a href="https://neurips.cc/virtual/2026/177854">AI Safety Lives in a Direction: Reading, Breaking, and Repairing Refusal in Multimodal Models</a></div>
+    <div class="author"><strong>Doehyeon Lee</strong>, Yoo-Min Jung, Jaeyong Ko</div>
+    <div class="periodical"><em>The Fortieth Annual Conference on Neural Information Processing Systems, Education Track, 2026 <strong>(NeurIPS 2026 Education Track)</strong></em></div>
   </div>
-
+  
 </div>
 </li>
 
 <li>
 <div class="pub-row">
+
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="../assets/img/SceneSplit.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICLR 2026</abbr>
+    <img src="../assets/img/visualthinking.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">NeurIPS 2026 Education Track</abbr>
   </div>
 
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://proceedings.iclr.cc/paper_files/paper/2026/hash/605e02ae04cba1ebf6a08206299e76b9-Abstract-Conference.html">Jailbreaking on Text-to-Video Models via Scene Splitting Strategy</a></div>
-    <div class="author">Wonjun Lee*, Haon Park*, <strong>Doehyeon Lee</strong>, Bumsub Ham, Suhyun Kim (*Equal Contribution)</div>
-    <div class="periodical"><em>Fourteenth International Conference on Learning Representations, 2026 <strong>(ICLR 2026)</strong></em></div>
-    <div class="links">
-      <a href="https://arxiv.org/pdf/2509.22292" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="https://github.com/wonjuun/SceneSplit" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="https://wonjuun.github.io/SceneSplit/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="https://dblp.org/rec/journals/corr/abs-2509-22292.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      <strong><i style="color:#e74d3c">Poster Presentation</i></strong>
-    </div>
+    <div class="title"><a href="https://neurips.cc/virtual/2026/177854">Can a model think VISUALLY?</a></div>
+    <div class="author">Jaeyong Ko, Eunseo Kim, <strong>Doehyeon Lee</strong></div>
+    <div class="periodical"><em>The Fortieth Annual Conference on Neural Information Processing Systems, Education Track, 2026 <strong>(NeurIPS 2026 Education Track)</strong></em></div>
   </div>
+
 </div>
 </li>
   
