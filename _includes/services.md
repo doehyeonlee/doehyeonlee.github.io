@@ -36,7 +36,7 @@
     <autocolor><strong>Teaching Assistant</strong>, <em>Industrial Application of Machine Learning</em>, Seoul National University</autocolor> (Sep 2025 – Dec 2025)
   </li>
   <li>
-    <autocolor><strong>Tutor</strong>, <em>Basic Computing: First Adventures in Computing</em>, Seoul National University</autocolor> (Mar 2025 – Dec 2025)
+    <autocolor><strong>Tutor</strong>, <em>Basic Computing: First Adventures in Computing</em>, Seoul National University</autocolor> (Mar 2025 – Dec 2025, Sep 2026 – Dec 2026)
   </li>
 </ul>
 
