@@ -1,4 +1,4 @@
-<h3 id="publications" style="margin: 2px 0px -15px;">Educational Publications</h3>
+<h2 id="publications" style="margin: 2px 0px -15px;">Conference Presentations</h2>
 
 <div class="publications">
 <ol class="bibliography">
